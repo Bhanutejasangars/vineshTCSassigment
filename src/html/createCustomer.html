@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreatePage</title>
+    <link rel="stylesheet" href="../css/login.css" />
+    <script defer src="../js/index.js"></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="article">
+        <div class="CustomerCreationBox">
+          <div class="loginHeading">Create Customer Account</div>
+          <div class="CustomerCreationCredentialBox">
+            <div class="loginInputBox">
+              <input placeholder="Customer SSN ID" class="input" required />
+              <input placeholder="Customer Id" class="input" required />
+              <input placeholder="Customer Age" class="input" required />
+              <input placeholder="Customer Address" class="input" required />
+              <select class="input">
+                <option class="selectState">Select State</option>
+
+                <option>TS</option>
+                <option>AP</option>
+                <option>TN</option>
+                <option>MH</option>
+              </select>
+              <select class="input">
+                <option class="selectState">Select city</option>
+
+                <option>city1</option>
+                <option>city2</option>
+                <option>city3</option>
+                <option>city4</option>
+              </select>
+            </div>
+            <button class="loginButton" onclick="createFunction()">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

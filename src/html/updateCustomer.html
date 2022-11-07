@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Page</title>
+    <link rel="stylesheet" href="../css/login.css" />
+    <script defer src="../js/index.js"></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="article">
+        <div class="CustomerUpdationBox">
+          <div class="UpdateHeading">Update Customer Account</div>
+          <div class="CustomerUpdationCredentialBox">
+            <div class="cuatomerUpdationInputBox">
+              <p>Customer SSN ID: <span>XXXX</span></p>
+              <p>Customer ID: <span>XXXX</span></p>
+              <p>Old Customer Name: <span>XXXX</span></p>
+
+              <input placeholder="New Customer Name" class="input" required />
+              <p>Old Address: <span>XXXX</span></p>
+
+              <input
+                placeholder="Customer New Address"
+                class="input"
+                required
+              />
+              <p>Old Customer Age: <span>XXXX</span></p>
+
+              <input placeholder="Customer New Age" class="input" required />
+            </div>
+            <button class="UpdateButton" onclick="updateFunction()">
+              Update
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
